@@ -18,22 +18,24 @@
             <div id='topPhoto'>
             </div>
             <h2 id="magic">Let's create some magic!</h2>
+
             <p id=faq>FAQ</p>
+
             <div id=sidephoto></div>
-            <form id='inquire'>
-                <fieldset>
-                  <label>Name</label>
-                  <input name='Name' type='text' required>
-                  <label>Email</label>
-                  <input name='Email' type= 'text' required>
-                  <label>Phone Number</label>
-                  <input name='Phone Number' type= 'text' required>
-                  <label>Date of Inquiry</label>
-                  <input name='Date' type= 'text' required>
-                  <label>Message</label>
-                  <input name='Message' type= 'text' required>
-                  <button>Send Message</button>
-                </fieldset>
+
+            <form action="/action_page.php">
+                <label for="name">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Enter your name..">
+                <label for="Email">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter your email..">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter your phone number..">
+                <label for="date">Date</label>
+                <input type="text" id="lname" name="lastname" placeholder="Date of inquiry..">
+                <label for="message">Message</label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter your message here..">
+              
+                <input type="submit" value="Submit">
               </form>
         </main>
         <footer>
